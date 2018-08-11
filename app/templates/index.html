@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Home Page - Weather</title>
+        <link rel="stylesheet" href="weather.css">
+    </head>
+    <body>
+        <form action="/weather" method="POST">
+            <label for="location">Enter location:</label>
+            <input type="text" name="location" class="loca"><br>
+            <label class="container">C
+                <input type="radio" name="temp" value="CELSIUS">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">F
+                <input type="radio" name="temp" value="FAHRENHEIT">
+                <span class="checkmark"></span>
+            </label><br>
+            <input type="submit" class="submit">
+        </form>
+    </body>
+</html>
+
