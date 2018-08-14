@@ -9,7 +9,7 @@
         <meta name="author" content="">
         
         <!-- style -->
-        <link rel="stylesheet" href="weather.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/weather.css') }}">
     </head>
     <body>
         <form action="/weather" method="POST">
