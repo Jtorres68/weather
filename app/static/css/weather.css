@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-label, th, tr{
+label, table {
     margin-top: 50px;
     font-family: "Times New Roman", Times, serif;
     font-size: 30px;
