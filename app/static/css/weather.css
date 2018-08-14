@@ -1,4 +1,4 @@
-body {
+]]body {
     background-image: url(gradient.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,7 +6,7 @@ body {
     text-align: center;
 }
 
-label{
+label, th, tr{
     margin-top: 50px;
     font-family: "Times New Roman", Times, serif;
     font-size: 30px;
